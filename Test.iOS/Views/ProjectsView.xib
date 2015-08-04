@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProjectsView">
+            <connections>
+                <outlet property="TableView" destination="cZd-Hm-7Ou" id="Ac2-Wc-MO8"/>
+                <outlet property="view" destination="iN0-l3-epB" id="kCW-yf-GMq"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="cZd-Hm-7Ou">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="cZd-Hm-7Ou" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="K3w-DA-wlb"/>
+                <constraint firstAttribute="bottom" secondItem="cZd-Hm-7Ou" secondAttribute="bottom" id="TES-6C-6P1"/>
+                <constraint firstItem="cZd-Hm-7Ou" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Xjl-Be-E3w"/>
+                <constraint firstAttribute="trailing" secondItem="cZd-Hm-7Ou" secondAttribute="trailing" id="m3y-4k-lqE"/>
+            </constraints>
+            <point key="canvasLocation" x="271" y="447"/>
+        </view>
+    </objects>
+</document>

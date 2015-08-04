@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="Test.iOS/Test.iOS.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone4s.8.4" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Test.Core.Network/ApiConnection.cs">
+    <Files>
+      <File FileName="Test.Core/ViewModels/ProjectViewModel.cs" Line="1" Column="1" />
+      <File FileName="Test.iOS/Views/ProjectView.cs" Line="1" Column="1" />
+      <File FileName="Test.iOS/Views/Base/BaseView.cs" Line="1" Column="1" />
+      <File FileName="Test.Core.ImageStorage/SiteStorage.cs" Line="1" Column="1" />
+      <File FileName="Test.Core.Network/ApiConnection.cs" Line="28" Column="28" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/dtrinciarelli/LocalSource/Test/Test.iOS/Controls/TableViewSource/StandardTableViewSource.cs" line="81" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
